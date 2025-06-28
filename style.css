@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+canvas {
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: #00c853;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #00e676;
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 16px;
+    }
+}
